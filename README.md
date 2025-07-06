@@ -2,6 +2,8 @@
 
 Este proyecto consiste en un robot autónomo que utiliza un sensor ultrasónico, un servomotor, un mini display y motores para detectar obstáculos, mostrar información y tomar decisiones de movimiento de forma automática.
 
+![image](imagenes/20250706_015404_.png)
+
 ## 📋 Caracteristicas
 
 El robot realiza las siguientes tareas:
