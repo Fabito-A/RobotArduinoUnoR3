@@ -10,6 +10,12 @@
 #include <Wire.h>
 
 class MiniDisplay {
+    private:
+    static const int SCREEN_WIDTH = 128;
+    static const int SCREEN_HEIGHT = 64;
+    static const int OLED_RESET = -1;
+    Adafruit_SSD1306 display;
+
   public:
     MiniDisplay();
     bool begin();
@@ -17,11 +23,7 @@ class MiniDisplay {
     void clear();
     void showCheckIcon(int x = 80, int y = 16);
     void showWarningIcon(int x = 80, int y = 16);
-  private:
-    static const int SCREEN_WIDTH = 128;
-    static const int SCREEN_HEIGHT = 64;
-    static const int OLED_RESET = -1;
-    Adafruit_SSD1306 display;
+
 };
 
 #endif
