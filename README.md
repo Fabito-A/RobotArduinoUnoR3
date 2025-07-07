@@ -45,3 +45,10 @@ Es aconsejable segun la velocidad de los motores calibrar su medicion, entre mas
 | **Adafruit SSD1306**     | BSD      | Librería para pantallas OLED SSD1306                   | [Enlace](https://github.com/adafruit/Adafruit_SSD1306)     |
 | **NewPing**              | GPL v3   | Librería optimizada para sensores ultrasónicos HC-SR04 | [Enlace](https://bitbucket.org/teckel12/arduino-new-ping/src/master)       |
 | **Servo**                | LGPL 2.1 | Librería estándar para control de servomotores         | [Enlace](https://github.com/arduino-libraries/Servo)       |
+
+## 🧑‍💻 Agradecimientos:
+Este proyecto es basado en este repositorio de Electronica De Una:
+| Repositoro               |
+|-------------------------------------------------------------------|
+| https://github.com/electrodeuna/avoid-obstacles-arduino |
+---
